@@ -1,0 +1,51 @@
+
+#################################
+# IDE Files
+#################################
+.idea
+*.ipr
+*.iml
+java/.idea
+java/*.ipr
+java/*.iml
+
+
+#################################
+# Node Related Ignores
+#################################
+node_modules
+.npm-debug.log
+npm-debug.log
+
+
+#################################
+# OSX
+#################################
+.DS_Store
+
+#################################
+# GO Builds
+#################################
+out/*
+!out/.gitkeep
+src/src
+src/pkg
+src/src/*
+src/pkg/*
+src/pkg/**/*
+src/src/**/*
+
+#################################
+# Test Files
+#################################
+
+logs
+src/conf/env.json
+payload.json
+test1.json
+test2.json
+test3.json
+test4.json
+test5.json
+testing.json
+
